@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Page title</title>
+      <link rel="stylesheet" href="style.css">
+</head>
+<body>
+      <div class="topnav" id="myTopnav">
+  <a href="#home" class="active">CONFIRM</a>
+  <a href="#news">CHAT</a>
+  <a href="#contact">PHOTOS</a>
+  <div class="dropdown">
+    <button class="dropbtn">Your Name
+      <i class="fa fa-caret-down"></i>
+    </button>
+      </div>
+  <a href="#about">HOME</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+<section>
+  <h2>HAPPY</h2>
+</section>
+<div class="article">
+    <h1>BIRTHDAY</h1>
+    <p>Happy birthday to you wishing you long life and prosperity</p>
+    <a href="#" class="button">GO NOW</a>
+</div>
+
+
+
+<script>
+  function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+
+</script>
+    
+</body>
+</html>
+        
